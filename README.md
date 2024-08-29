@@ -8,7 +8,7 @@ SA 的分析结果，错配的reads分配到其他物种，生成cram文件
 samtools view -b -h out.cram > out.bam
 
 # bam转cram
-# samtools view -C -T genome.fasta out.bam > out.cram
+samtools view -C -T genome.fasta out.bam > out.cram
 
 （2）bam文件转换成bed文件
 
